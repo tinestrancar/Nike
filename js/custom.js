@@ -51,7 +51,7 @@ var nikeBezier = document.getElementById("nikeBezier2");
 var ctx2 = nikeBezier.getContext("2d");
 ctx2.beginPath();
 ctx2.moveTo(80, 60);
-ctx2.bezierCurveTo(80, 120, 100, 90, 250, 40);
+ctx2.bezierCurveTo(80, 150, 190, 40, 250, 40);
 ctx2.bezierCurveTo(20, 200, 40, 110, 63, 80);
 ctx2.fillStyle = "#272728";
 ctx2.fill();

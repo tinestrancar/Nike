@@ -179,6 +179,11 @@ a:focus {
 /*end header section*/
 /* slider section */
 
+#abt{
+  position:relative;
+}
+
+
 #more {display: none;}
 
 

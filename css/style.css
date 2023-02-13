@@ -179,6 +179,15 @@ a:focus {
 /*end header section*/
 /* slider section */
 
+.slider1{
+  width:100%;
+  position:relative;
+  overflow:hidden;
+  box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
+}
+
+
+
 #abt{
   position:relative;
 }
@@ -194,6 +203,17 @@ a:focus {
   float: left; 
   border: none;
   padding: 12px 30px;
+}
+
+.guy1{
+  max-height: 70%;
+  max-width: 70%;
+
+}
+
+.name{
+  margin-right: 100px;
+
 }
 
 #forcepng{
@@ -724,6 +744,48 @@ svg{
   height: 30px;
   background-size: 25px;
 }
+
+
+.carousel-control-prev1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.client_section .carousel-control-prev-icon1 {
+  background-image: url(../images/prev-black.png);
+}
+
+.client_section .carousel-control-prev-icon1:hover {
+  background-image: url(../images/prev.png);
+}
+
+.carousel-control-next-icon1 {
+  width: 30px;
+  height: 30px;
+  background-size: 25px;
+}
+
+.client_section .carousel-control-next-icon1 {
+  background-image: url(../images/next-black.png);
+}
+
+.client_section .carousel-control-next-icon1:hover {
+  background-image: url(../images/next.png);
+}
+
 
 .client_section .carousel-control-prev-icon {
   background-image: url(../images/prev-black.png);

@@ -82,8 +82,8 @@
    */
 
   var TRANSITION_END = 'transitionend';
-  var MAX_UID = 1000000;
-  var MILLISECONDS_MULTIPLIER = 1000; // Shoutout AngusCroll (https://goo.gl/pxwQGp)
+  var MAX_UID = 100;
+  var MILLISECONDS_MULTIPLIER = 100; // Shoutout AngusCroll (https://goo.gl/pxwQGp)
 
   function toType(obj) {
     return {}.toString.call(obj).match(/\s([a-z]+)/i)[1].toLowerCase();
@@ -1021,7 +1021,7 @@
             _this4._isSliding = false;
             setTimeout(function () {
               return $(_this4._element).trigger(slidEvent);
-            }, 0);
+            }, 500);
           }).emulateTransitionEnd(transitionDuration);
         } else {
           $(activeElement).removeClass(ClassName$2.ACTIVE);

@@ -253,7 +253,7 @@ a:focus {
 
 svg{
   position: absolute;
-  top: 11px;
+  top: 0;
   right: 17px;
   opacity: 0.825;
 }

@@ -179,6 +179,11 @@ a:focus {
 /*end header section*/
 /* slider section */
 
+.price_section layout_padding h6 {
+  text-align: center;
+}
+
+
 .slider1{
   width:100%;
   position:relative;

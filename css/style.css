@@ -579,6 +579,7 @@ svg{
 .price_section .price_container .box h6 {
   font-weight: bold;
   font-size: 18px;
+  margin-left: 100px;
 }
 
 .price_section .price_container .box .detail-box h5 {
@@ -600,9 +601,11 @@ svg{
   margin-top: 15px;
 }
 
-.price_section .price_container .box:hover a {
-  border-color: #fbb534;
-  color: #fbb534;
+.price_section .price_container .box a:hover {
+  border-color: #000000;
+  color: #adadad;
+  background-color: #131313;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .price_section .price_btn {
@@ -612,7 +615,7 @@ svg{
   border: none;
   border-radius: 30px;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5e47b), to(#fb930a));
+  background: -webkit-gradient(linear, left top, left bottom, from(#979797), to(#ffffff));
   background: linear-gradient(to bottom, #6e6e6ee1, #2c2c2c);
 }
 
